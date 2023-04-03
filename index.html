@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/calculadora.css">
+</head>
+<body>
+    <div id="ingreso">
+        <input type="number" id="numero1">
+        <input type="number" id="numero2">
+
+    </div>
+    <br>
+    <br>
+    <div id="operacionesBasicas">
+        <button id="suma" onclick="suma()">Suma</button>
+        <button id="resta" onclick="resta()">Resta</button>
+        <button id="multiplicacion" onclick="multiplicacion()">Multiplicacion</button>
+        <button id="division" onclick="division()">Division</button>
+
+    </div>
+    <br>
+    <br>
+    <div id="operaciones2">
+        <button id="raizCuadrada" onclick="raizcuadrada()">Raiz Cuadrada</button>
+        <button id="potencia" onclick="potencia()">Potencia</button>
+        <button id="valorAbsoluto" onclick="valorabsoluto()">Valor Absoluto</button>
+        <button id="random" onclick="random()">Random</button>
+
+    </div>
+    <br>
+    <br>
+    <div id="operaciones3">
+        <button id="round" onclick="round()">Round</button>
+        <button id="ceil" onclick="ceil()">Ceil</button>
+        <button id="floor" onclick="floor()">Floor</button>
+
+    </div>
+    
+    <div id="resultado">
+      <input type="number" id="numero3">  
+    </div>
+    
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
